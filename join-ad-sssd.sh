@@ -1658,7 +1658,8 @@ print_kerberos_config()
 
     echo "[libdefaults]"
     echo "default_realm = ${realm_name}"
-    echo "dns_lookup_realm = true"
+    echo "dns_lookup_realm = false"
+    echo "rdns = no"
     echo "dns_lookup_kdc = true"
     echo "forwardable = true"
     echo "ticket_lifetime = ${KERBEROS_TICKET_LIFETIME}"
