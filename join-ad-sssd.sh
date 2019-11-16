@@ -1214,7 +1214,7 @@ print_dnsmasq_system_resolv_config()
         echo "domain ${domain_name}"
     fi
 
-    echo "nameserver 10.60.60.60"
+    echo "nameserver 127.0.0.1"
 
     return 0
 }
